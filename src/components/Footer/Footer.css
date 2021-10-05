@@ -1,0 +1,29 @@
+.icon {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(46, 46, 46);
+    /* border-radius: 5px; */
+    color: rgb(155, 155, 155);
+    font-size: 30px;
+}
+.icon:hover {
+    background-color: rgb(250, 25, 25);
+}
+
+
+
+
+.list-item {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(218, 214, 214);
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.list-item:hover {
+    color: rgb(221, 5, 5);
+}

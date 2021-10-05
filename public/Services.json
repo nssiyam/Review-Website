@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "courseName": "SSC Batch 2021",
+        "courseAbout": "This course is for student who will give SSC in November, 2021.",
+        "courseOutline": "Bangla, English, Math, Physics, Chemistry and Biology according to the syllabus.",
+        "courseSpecialty": "Simple and Concept base so a weak student can comprehend the topics and get good marks.",
+        "courseFee": 3000,
+        "classAmount": 24,
+        "quizAmount": 24,
+        "modelTest": 6,
+        "courseCertificate": "Students who complete the course with good grade will get a certificate."
+    },
+    {
+        "id": 2,
+        "courseName": "SSC Batch 2022",
+        "courseAbout": "This course is for student who will give SSC batch 2022.",
+        "courseOutline": "Bangla, English, Math, Physics, Chemistry and Biology according to the syllabus.",
+        "courseSpecialty": "Simple and Concept base so a weak student can comprehend the topics and get good marks.",
+        "courseFee": 4000,
+        "classAmount": 36,
+        "quizAmount": 36,
+        "modelTest": 12,
+        "courseCertificate": "Students who complete the course with good grade will get a certificate."
+    },
+    {
+        "id": 3,
+        "courseName": "HSC Batch 2021",
+        "courseAbout": "This course is for student who will give HSC batch 2021.",
+        "courseOutline": "Physics, Chemistry, Math, Higher Math, Biology, ICT, Bangla 2nd Paper and English 2nd Paper according to the short syllabus.",
+        "courseSpecialty": "Conceptual and pre-admission focused. Private care for weaker students. Course structure is simplified so a student can get good grade easily and get enough confidence for admission test.",
+        "courseFee": 5000,
+        "classAmount": 50,
+        "quizAmount": 50,
+        "modelTest": 16,
+        "courseCertificate": "Students with good grade will get a certificate."
+    },
+    {
+        "id": 4,
+        "courseName": "HSC Batch 2022",
+        "courseAbout": "This course is for student who will give HSC batch 2022.",
+        "courseOutline": "Physics, Chemistry, Math, Higher Math, Biology, ICT, Bangla 2nd Paper and English 2nd Paper according to the short syllabus.",
+        "courseSpecialty": "Conceptual and pre-admission focused. Private care for weaker students. Course structure is simplified so a student can get good grade easily and get enough confidence for admission test.",
+        "courseFee": 8000,
+        "classAmount": 70,
+        "quizAmount": 70,
+        "modelTest": 24,
+        "courseCertificate": "Students with good grade will get a certificate."
+    },
+    {
+        "id": 5,
+        "courseName": "Admission 2022",
+        "courseAbout": "This course is for students who wants to get admitted into Engineering Universities and Public Universities.",
+        "courseOutline": "Physics, Chemistry, Higher Math, ICT and Biology.",
+        "courseSpecialty": "Conceptual, problem based, comprehensive admission guideline are something you will get only in this cource. This will help you give a good understanding of the courses and get a good grip of the previous year questions so you can give a better exam in any universities whether it is engineering based or medical.",
+        "courseFee": 18000,
+        "classAmount": 200,
+        "quizAmount": 200,
+        "modelTest": 50,
+        "courseCertificate": "Students with good marks will get a certificate."
+    }
+]
