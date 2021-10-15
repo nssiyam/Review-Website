@@ -1,12 +1,13 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
+import img from "../../images/error.jpeg";
 import MenuBar from '../MenuBar/MenuBar';
+import Footer from '../Footer/Footer';
 
 const Error = () => {
     return (
         <div>
-            <MenuBar></MenuBar>
-            <h1 className="text-danger mt-5">Cant found error 404 !!!</h1>
+            <h1 className="text-danger mt-5">Not found error 404!!!</h1>
+            <img className="error-img" src={img} alt="" />
         </div>
     );
 };

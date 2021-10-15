@@ -1,5 +1,6 @@
 import React from 'react';
-import './MenuBar.css'
+import './MenuBar.css';
+import logo from "../../images/home-logo.png";
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
@@ -7,14 +8,15 @@ import { faSignInAlt } from "@fortawesome/free-solid-svg-icons";
 const MenuBar = () => {
     return (
 
-        <div className="container-fluid p-4 bg-dark">
-            <div className="row">
-                <div className="col-md-2 d-flex align-items-end justify-content-start">
+        <div className="container-fluid p-1 bg-menu">
+            <div className="row container mx-auto">
+                <div className="col-md-3 d-flex align-items-center justify-content-start">
                     <NavLink to="/home" className="items">
-                        Lorem
+                        <img className="img-fluid rounded-circle" src={logo} alt="" style={{ width: '50px' }} />
+                        <span style={{ marginLeft: '5px' }}>Elegant Edu Center</span>
                     </NavLink>
                 </div>
-                <div className="col-md-6 d-flex align-items-end justify-content-end">
+                <div className="col-md-6 d-flex align-items-center justify-content-center">
                     <NavLink to="/home" className="items" activeClassName="selected">
                         Home
                     </NavLink>
@@ -24,17 +26,11 @@ const MenuBar = () => {
                     <NavLink to="/about" className="items" activeClassName="selected">
                         About us
                     </NavLink>
-                    <NavLink to="/blogs" className="items" activeClassName="selected">
-                        Blogs
-                    </NavLink>
-                    <NavLink to="/service/ssc" className="items" activeClassName="selected">
-                        SSC
-                    </NavLink>
-                    <NavLink to="/service/hsc" className="items" activeClassName="selected">
-                        HSC
+                    <NavLink to="/contact" className="items" activeClassName="selected">
+                        Contact Us
                     </NavLink>
                 </div>
-                <div className="col-md-4 d-flex align-items-end justify-content-end">
+                <div className="col-md-3 d-flex align-items-center justify-content-end">
                     <NavLink to="/login" className="items login" activeClassName="selected">
                         <FontAwesomeIcon icon={faSignInAlt}></FontAwesomeIcon>
                         Log In

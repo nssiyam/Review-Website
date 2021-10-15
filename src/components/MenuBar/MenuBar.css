@@ -1,18 +1,24 @@
+.bg-menu {
+  background-color: darkslateblue;
+}
+
 .items {
   margin-right: 30px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
-  color: rgb(218, 214, 214);
+  color: white;
   cursor: pointer;
   padding: 5px;
   text-decoration: none;
 }
 .items:hover {
-  color: rgb(221, 5, 5);
+  color: #c9e265;
+  text-decoration: underline;
+  text-shadow: 10px;
 }
 
 .selected {
-  color: rgb(221, 5, 5);
+  color: #c9e265;
 }
 
 .login {

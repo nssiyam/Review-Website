@@ -1,26 +1,24 @@
-import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import Service from '../Service/Service';
 
 const Services = () => {
+    const [services, setServices] = useState([]);
+    useEffect(() => {
+        fetch('https://6159fee1601e6f0017e5a37e.mockapi.io/Services')
+            .then(res => res.json())
+            .then(data => setServices(data))
+    }, [])
+
     return (
-        <div>
-            <h2>Services</h2>
-            <Row xs={1} md={2} className="g-4 container-fluid">
-                {Array.from({ length: 4 }).map((_, idx) => (
-                    <Col>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
-                            <Card.Body>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                ))}
-            </Row>
+        <div className="container-fluid">
+            <h2 className="mt-5 p-5 fs-1 fw-bold">Our Courses</h2>
+            <div className="container-fluid row row-cols-3 row-cols-md-3 g-4">
+                {
+                    services.map(service =>
+                        <Service key={service.id}
+                            service={service} ></Service>)
+                }
+            </div>
         </div>
     );
 };

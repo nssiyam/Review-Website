@@ -2,21 +2,25 @@ import React from 'react';
 import './Footer.css'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faInstagramSquare, faTwitterSquare, faYoutube, } from '@fortawesome/free-brands-svg-icons';
 import {
-    faCoffee,
+    faFacebookSquare,
+    faInstagramSquare,
+    faTwitterSquare,
+    faYoutube,
+} from '@fortawesome/free-brands-svg-icons';
+import {
     faPhoneVolume,
     faMapMarkedAlt,
-  } from "@fortawesome/free-solid-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
     return (
-        <div className="container-fluid bg-dark text-white p-5">
-            <div className="row m-5">
-                <div className="col-md-5">
+        <div className="container-fluid text-white p-3 bg-footer">
+            <div className="container row mx-auto">
+                <div className="col-md-5 d-flex align-items-center">
                     <div className="left-container text-start">
                         <h1>Elegant Edu Care</h1>
-                        <div className="icons-container d-flex text-center ">
+                        <div className="icons-container d-flex text-center justify-content-start">
                             <div className="icon">
                                 <FontAwesomeIcon icon={faInstagramSquare} />
                             </div>
@@ -30,27 +34,20 @@ const Footer = () => {
                                 <FontAwesomeIcon icon={faFacebookSquare} />
                             </div>
                         </div>
-                        <p className="mt-4 ">
-                            <small>
-                                *These statements have not been evaluated by the Food and
-                                Drug Administration. These products are not intended to
-                                diagnose.
-                            </small>
-                        </p>
-
-                        <p className="mt-5">
-                            <small>Zemez © . All rights reserved.</small>
+                        <p className="mt-2">
+                            <small>Siyam ©2021 All rights reserved.</small>
                         </p>
                     </div>
                 </div>
 
-                <div className="col-md-2">
+                <div className="col-md-2 d-flex flex-column align-items-center justify-content-center">
                     <Link className="list-item" to="/home">Home</Link>
                     <Link className="list-item" to="/services" >Services</Link>
                     <Link className="list-item" to="/about">About Us</Link>
-                    <Link className="list-item" to="/blogs">Blogs</Link>
+                    <Link className="list-item" to="/contact">Contact Us</Link>
                 </div>
-                <div className="col-md-5">
+                
+                <div className="col-md-5  d-flex align-items-center justify-content-end">
                     <div className="right-footer-container">
                         <h3>Sign up for the latest updates</h3>
                         <input
@@ -63,7 +60,7 @@ const Footer = () => {
                                 <FontAwesomeIcon icon={faPhoneVolume} />
                             </div>
                             <div>
-                                <h5>+1 8 800 555 35 35</h5>
+                                <h5>+8801959595959</h5>
                             </div>
                         </div>
                         <div className="map d-flex align-items-center justify-content-center">
@@ -72,8 +69,8 @@ const Footer = () => {
                             </div>
                             <div>
                                 <p>
-                                    160 Broadway, New York, NY 10038,
-                                    <br /> 102 1st Avenue, New York, NY 100
+                                    26 Bashundhara, Dhaka
+                                    <br /> 221B 1st Lane, Niketon, Dhaka-1000
                                 </p>
                             </div>
                         </div>

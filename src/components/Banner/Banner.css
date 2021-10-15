@@ -1,0 +1,28 @@
+.banner {
+    background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 50rem;
+    width: 100.75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.btn-banner {
+    background-color: #c9e265;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
