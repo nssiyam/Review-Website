@@ -7,7 +7,7 @@ const Service = (props) => {
     return (
         <div>
             <Col>
-                <Card style={{ width: '27rem'}}>
+                <Card style={{ width: '90%'}}>
                     <Card.Img variant="top" src={Img} fluid/>
                     <Card.Body>
                         <Card.Title>{CourseName}</Card.Title>
